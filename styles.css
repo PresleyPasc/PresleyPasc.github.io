@@ -1,0 +1,94 @@
+:root{
+    hyphens: 8;
+}
+    selector{       
+        hyphens: var(theMan);
+    }
+:root{
+    --font-family: "Roboto", sans-serf;
+    --normal-font: 500;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #000000;
+    --primary-color: #000000;
+    --secondary-color: #000000;
+    --primary-shadow: #000000;
+    --secondary-shadow: #000000;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+    }
+
+    html{
+        scroll-behavior: smooth;   
+    }
+   *{
+
+   
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+   }
+      ul {
+        list-style-type: disc;
+      }
+      
+      a {
+        text-decoration: underline;;
+        color: var(black);
+      }
+      
+      a:hover {
+        color: var(black);
+      }
+      
+      body {
+        font-family: var(serif);
+      }
+
+  nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(black);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+      }
+
+
+
+      nav h1 {
+        color: var(black);
+      }
+      
+      nav a {
+        color: var(black);
+        transition: var(ease-out);
+      }
+      nav a:hover {
+        color: var(black);
+        border-bottom: 2px solid var(black);
+      }
+      
+      nav ul {
+        display: flex;
+        gap: 1.9rem;
+      }
+      
+      nav ul li {
+        font-weight: var(normal);
+      }
+
+      .burger-menu {
+        color: var(--primary-color);
+        font-size: 2rem;
+        border: 0;
+        background-color: transparent;
+        cursor: pointer;
+        display: none;
+      }
